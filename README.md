@@ -21,4 +21,15 @@ Let's Begin.
 
 ```php
     composer require livewire/livewire
+    
+    //Before including livewire style and scripts
+    Install laravel Breeze for starter.
+    https://laravel.com/docs/10.x/starter-kits#laravel-breeze
+
+    including @livewireStyles --Before </head> Tag
+   @livewireScripts -- Before </body> Tag
 ```
+Include in views/layout/app.blade.php
+
+![Include in views/layout/app.blade.php](C:\Users\DIVESH\Desktop\image1.png)
+
