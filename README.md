@@ -31,5 +31,6 @@ Let's Begin.
 ```
 Include in views/layout/app.blade.php
 
-![Include in views/layout/app.blade.php](screen/git-screen.png)
+![git-screen](https://github.com/DiveshR/laravel-livewire-for-beginners/assets/25860707/8284432d-592b-4eae-8d12-27d32d79ed56)
+
 
