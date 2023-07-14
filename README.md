@@ -31,5 +31,5 @@ Let's Begin.
 ```
 Include in views/layout/app.blade.php
 
-![Include in views/layout/app.blade.php](C:\Users\DIVESH\Desktop\image1.png)
+![Include in views/layout/app.blade.php](screen/git-screen.png)
 
