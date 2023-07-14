@@ -15,3 +15,10 @@
 And... most importantly... how to make a slide-show of cat pictures with a new picture every 5 seconds \
 All. Without. ANY. JavaScript.
 
+Let's Begin.
+
+# Install Livewire
+
+```php
+    composer require livewire/livewire
+```
