@@ -31,6 +31,7 @@ Let's Begin.
 ```
 
 Include in views/layout/app.blade.php
+
 ![git-screen](https://github.com/DiveshR/laravel-livewire-for-beginners/assets/25860707/62ade321-3de2-47cf-bd37-99b903682056)
 
 
