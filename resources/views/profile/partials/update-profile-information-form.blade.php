@@ -48,9 +48,9 @@
         </div>
 
         <div class="flex items-center gap-4">
-            <x-primary-button>{{ __('Save1') }}</x-primary-button>
-        </div>
-        {{-- <div class="flex items-center gap-4">
+            <x-primary-button>{{ __('Save') }}</x-primary-button>
+            <?
+        <div class="flex items-center gap-4">
             <x-primary-button>{{ __('Save') }}</x-primary-button>
 
             @if (session('status') === 'profile-updated')
@@ -62,6 +62,6 @@
                     class="text-sm text-gray-600"
                 >{{ __('Saved.') }}</p>
             @endif
-        </div> --}}
+        </div>
     </form>
 </section>

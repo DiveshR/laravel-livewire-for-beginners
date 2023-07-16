@@ -22,8 +22,7 @@ class Profile extends Component
             'name' => $this->name,
             'email' => $this->email,
         ]);
-        $this->success = true;
-    }
+        $this->success = true;  }
 
     public function render()
     {
