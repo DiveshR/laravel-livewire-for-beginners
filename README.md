@@ -37,3 +37,16 @@ Include in views/layout/app.blade.php
 php artisan make:livewire Profile
 * It generates two files App/Http/Livewire/Profile.php
 * And blade file views/livewire/profile.blade.php
+
+Profile.php code to update profile
+
+![2](https://github.com/DiveshR/laravel-livewire-for-beginners/assets/25860707/0d1f80a7-16b0-42d7-8f6a-97c2b43079a4)
+
+profile.blade.php
+
+
+![2](https://github.com/DiveshR/laravel-livewire-for-beginners/assets/25860707/2906929e-e03f-4eb3-8017-e71e0e222c32)
+
+![2](https://github.com/DiveshR/laravel-livewire-for-beginners/assets/25860707/6370aa9c-553b-4fc1-9803-efac8e1aabdd)
+
+
