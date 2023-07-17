@@ -29,34 +29,9 @@ Let's Begin.
     including @livewireStyles --Before </head> Tag
    @livewireScripts -- Before </body> Tag
 ```
+
 Include in views/layout/app.blade.php
 
-![git-screen](https://github.com/DiveshR/laravel-livewire-for-beginners/assets/25860707/8284432d-592b-4eae-8d12-27d32d79ed56)
-
-# First Livewire Component to update profile
-php artisan make:livewire Profile
-* It generates two files App/Http/Livewire/Profile.php
-* And blade file views/livewire/profile.blade.php
-
-Profile.php code to update profile
-
-![2](https://github.com/DiveshR/laravel-livewire-for-beginners/assets/25860707/0d1f80a7-16b0-42d7-8f6a-97c2b43079a4)
-
-profile.blade.php
+![git-screen](https://github.com/DiveshR/laravel-livewire-for-beginners/assets/25860707/62ade321-3de2-47cf-bd37-99b903682056)
 
 
-![2](https://github.com/DiveshR/laravel-livewire-for-beginners/assets/25860707/2906929e-e03f-4eb3-8017-e71e0e222c32)
-
-![2](https://github.com/DiveshR/laravel-livewire-for-beginners/assets/25860707/6370aa9c-553b-4fc1-9803-efac8e1aabdd)
-
-# 3 Ways To Fix Too Many Server Request.
- In general when we type something in input or select etc everytime request is send to  Server. We can fix  them through following Data Binding.
-
- * wire:model.debounce.500ms="name"
- It send requests after 500ms.
-
- * wire:model.lazy="name"
- It sends request to server only when the user clicks away from the input field.
-
-* wire:model.defer="name"
-It sends requests when user click submit button.

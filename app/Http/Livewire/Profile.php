@@ -15,7 +15,6 @@ class Profile extends Component
         $this->email = auth()->user()->email;
         $this->success = false;
     }
-    protected $rule 
 
     public function submit()
     {
@@ -23,7 +22,8 @@ class Profile extends Component
             'name' => $this->name,
             'email' => $this->email,
         ]);
-        $this->success = true;  }
+        $this->success = true;
+    }
 
     public function render()
     {
