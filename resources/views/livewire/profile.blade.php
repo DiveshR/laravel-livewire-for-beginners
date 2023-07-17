@@ -19,13 +19,13 @@
         @csrf
         <div>
             <x-input-label for="name" :value="__('Name')" />
-            <x-text-input id="name" wire:model="name" type="text" class="mt-1 block w-full"  required autofocus autocomplete="name" />
+            <x-text-input id="name" wire:model.debounce.lazy="name" type="text" class="mt-1 block w-full"  required autofocus autocomplete="name" />
             <x-input-error class="mt-2" :messages="$errors->get('name')" />
         </div>
 
         <div>
             <x-input-label for="email" :value="__('Email')" />
-            <x-text-input id="email" wire:model="email" type="email" class="mt-1 block w-full"  required autocomplete="username" />
+            <x-text-input id="email" wire:model.defer="email" type="email" class="mt-1 block w-full"  required autocomplete="username" />
             <x-input-error class="mt-2" :messages="$errors->get('email')" />
 
         </div>

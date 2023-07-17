@@ -49,4 +49,14 @@ profile.blade.php
 
 ![2](https://github.com/DiveshR/laravel-livewire-for-beginners/assets/25860707/6370aa9c-553b-4fc1-9803-efac8e1aabdd)
 
+# 3 Ways To Fix Too Many Server Request.
+ In general when we type something in input or select etc everytime request is send to  Server. We can fix  them through following Data Binding.
 
+ * wire:model.debounce.500ms="name"
+ It send requests after 500ms.
+
+ * wire:model.lazy="name"
+ It sends request to server only when the user clicks away from the input field.
+
+* wire:model.defer="name"
+It sends requests when user click submit button.

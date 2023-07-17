@@ -15,6 +15,7 @@ class Profile extends Component
         $this->email = auth()->user()->email;
         $this->success = false;
     }
+    protected $rule 
 
     public function submit()
     {
